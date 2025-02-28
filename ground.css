@@ -1,0 +1,31 @@
+
+
+
+
+/*faq*/
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+.faq_list{
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+list-style-type: none;
+}
+.faq_list-item{
+  min-height: 8rem;
+  width: 300px;
+  gap: 2rem;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+.faq_card-title{
+  
+}
+.faq_card-text{
+
+}
