@@ -1,0 +1,153 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*header*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    max-width: 1500px;
+    background: rgb(2, 2, 136);
+    background: -moz-linear-gradient(90deg, #06165f, 0%, #3c00bc 100%);
+    color: white;
+    margin-top: 0;
+}
+.header_logo{
+margin-top: 0;
+
+}
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 450px) {
+    .header_inner{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+    
+
+
+.header_button{
+padding: 5px 10px;
+border-radius: 20px;
+display: flex;
+text-align: center;
+}
+.header_button-submit{
+background: orange;
+margin: 5px;
+padding: 12px 10px;
+font-size: medium;
+border-radius: 25px;
+}
+.header_button-signin{
+background: rgb(8, 207, 8);
+color: white;
+padding: 12px 10px;
+font-size: medium;
+border-radius: 25px;
+}
+.header_button-signin:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/*general*/
+
+.main-container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*search*/
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgba(230, 234, 247, 0.925);
+}
+.search_input{
+    padding: 5px 30px 5px 5px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.search_searchIcon{
+    position: relative;
+    right: -30px;
+    left: 78px;
+    top: -23px;
+}
+
+/*faq*/
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.faq_list{
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+list-style-type: none;
+}
+.faq_list-item{
+    min-height: 100px;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    gap: 2rem;
+    text-align: left;
+}
+.faq_card-title{
+    text-align: center;
+}
+.faq_card-text{
+text-align: center;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgba(4, 2, 105, 0.925);
+    color: white;
+}
+.footer_content{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 40px; 
+    justify-content: space-around;
+}
+
+.footer_column{
+    flex-direction: column;
+}

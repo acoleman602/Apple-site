@@ -1,0 +1,80 @@
+/*Header*/
+
+.topbar-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header_button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    min-width: 200px;
+border: 0;
+}
+.header_ab{
+background-color: black;
+color: white;
+padding: 5;
+}
+.header_abhelpcenter{
+color: white;
+    background-color: black;
+
+}
+.header_button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.header_button-submit{ background-color: black;
+    color: white;
+border: 15px;
+border-color: white;
+}
+.header_button-signin{
+background:  blue;
+color: white;
+
+}
+/*Main*/
+.search{
+    background-color: lightgray;
+    padding: 5rem;
+    
+}
+.search_title{
+    
+}
+.faq_list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.faq_list_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    min-width: 45%;
+}
+
+
+
+
+
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer_content{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    
+}
